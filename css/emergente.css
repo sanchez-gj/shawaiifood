@@ -1,0 +1,102 @@
+@import url("root.css");
+
+/* VENTANAS EMERGENTES */
+.car-emer {
+  width: 366px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.car-emer h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+  color: var(--text-primary);
+}
+
+.car-emer > div > i {
+  font-size: 50px;
+  color: var(--tree-color);
+}
+
+.modal-dialog {
+  width: 351px;
+}
+
+.formu-inicio {
+  background-color: var(--quint-color);
+  font-family: "Rubik", sans-serif;
+  color: var(--text-primary);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.formu-inicio h2,
+p,
+button {
+  margin: 10px;
+}
+
+.formu-inicio h2 {
+  font-size: 23px;
+  font-weight: 800;
+}
+.formu-inicio p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.formu-inicio button {
+  height: 42px;
+  font-weight: 600;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.formu-inicio .btn-1 {
+  background-color: var(--btn--primary);
+  color: var(--text-secondary);
+}
+.formu-inicio .btn-1:hover {
+  background-color: var(--btn--secondary);
+  color: var(--text-secondary);
+}
+.formu-inicio .btn-2 {
+  background-color: var(--btn--secondary);
+  color: var(--text-secondary);
+}
+.formu-inicio .btn-2:hover {
+  background-color: var(--btn--primary);
+  color: var(--text-secondary);
+}
+.formu-inicio .btn-3 {
+  border: 3px solid var(--btn--primary);
+  color: var(--btn--primary);
+}
+.formu-inicio .btn-3:hover {
+  border: 3px solid var(--btn--secondary);
+  color: var(--btn--secondary);
+}
+.formu-inicio .btn-4 {
+  border: 3px solid var(--btn--secondary);
+  color: var(--btn--secondary);
+}
+.formu-inicio .btn-4:hover {
+  border: 3px solid var(--btn--primary);
+  color: var(--btn--primary);
+}
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 600px) {
+  /* VENTANAS EMERGENTES */
+  .car-emer {
+    height: 200px;
+  }
+
+  .car-emer h2 {
+    font-size: 18px;
+  }
+
+  .car-emer > div > i {
+    font-size: 50px;
+  }
+}

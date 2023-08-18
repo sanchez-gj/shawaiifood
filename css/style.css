@@ -1,0 +1,250 @@
+@import url("root.css");
+@import url("emergente.css");
+@import url("menu.css");
+
+body {
+  background-color: var(--primary-color);
+}
+
+
+
+/* NAVEGAOR */
+.logo > span {
+  font-family: "Jua", sans-serif;
+  font-size: 25px;
+}
+.logo > .name-logo-1 {
+  color: var(--text-primary);
+}
+.logo > .name-logo-2 {
+  color: var(--text-tree);
+}
+.links a {
+  color: var(--text-primary);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.links a:hover {
+  color: var(--text-tree);
+  text-decoration: underline solid 3px;
+  text-decoration-color: var(--text-tree);
+  text-underline-offset: 7px;
+}
+
+
+
+/* BANNER */
+.banner {
+  font-family: "Rubik", sans-serif;
+  color: var(--text-secondary);
+}
+.banner h1 {
+  color: var(--text-primary);
+  font-size: 46px;
+  font-weight: 800;
+}
+.banner p {
+  font-size: 30px;
+  font-weight: 600;
+}
+.banner button {
+  color: var(--text-secondary);
+  width: 297;
+  height: 55px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: var(--btn--primary);
+  border-radius: 15px;
+  padding: 0 40px;
+}
+.banner button:hover {
+  background-color: var(--btn--secondary);
+}
+
+/* BANNER 2 */
+.banner-2 {
+  background-color: var(--quint-color);
+  font-family: "Rubik", sans-serif;
+}
+
+.banner-2 button {
+  background-color: var(--btn--secondary);
+  color: var(--text-secondary);
+  width: 221px;
+  height: 41px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.banner-2 button:hover {
+  background-color: var(--btn--primary);
+  color: var(--text-secondary);
+}
+.banner-2 h1 {
+  color: var(--text-primary);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.banner-2 h3 {
+  color: var(--text-primary);
+  font-size: 25px;
+  font-weight: 800;
+}
+.banner-2 > .row {
+  padding: 50px 0px;
+}
+
+/*SHAWARMAS*/
+.shawarmas {
+  font-family: "Rubik", sans-serif;
+  color: var(--text-secondary);
+}
+.shawarmas h1 {
+  font-size: 38px;
+  font-weight: 800;
+}
+.shawarmas .degra-2 {
+  color: rgba(255, 255, 255, 0.8);
+}
+.shawarmas .degra-3 {
+  color: rgba(255, 255, 255, 0.6);
+}
+.shawarmas .degra-4 {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.crujiente {
+  background-color: var(--primary-color);
+}
+.sabroso {
+  background-color: var(--secondary-color);
+}
+.variedad {
+  background-color: var(--four-color);
+}
+
+/*BANNER 3*/
+.banner-3 {
+  background-color: var(--quint-color);
+  font-family: "Rubik", sans-serif;
+}
+.banner-3 > .row {
+  padding: 80px 0px;
+}
+.banner-3 h1 {
+  color: var(--text-primary);
+  font-size: 35px;
+  font-weight: 800;
+}
+.banner-3 p {
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+}
+.banner-3 button {
+  width: 297px;
+  height: 55px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: var(--btn--primary);
+  color: var(--text-secondary);
+  border-radius: 15px;
+}
+.banner-3 button:hover {
+  background-color: var(--btn--secondary);
+  color: var(--text-secondary);
+}
+
+/*FOOTER*/
+.footer-link a {
+  color: var(--text-primary);
+  font-size: 30px;
+  padding: 0 40px;
+}
+.footer-link a:hover {
+  color: var(--text-tree);
+  text-decoration: underline solid 3px;
+  text-decoration-color: var(--text-tree);
+  text-underline-offset: 7px;
+}
+
+
+.modal-dialog {
+  width: 351px;
+}
+
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 600px) {
+  .banner-respo h1,
+  .shawarmas h1 {
+    font-size: 30px;
+  }
+  .banner-respo p {
+    font-size: 18px;
+  }
+  .banner-respo button {
+    font-size: 15px;
+    height: 36px;
+  }
+
+  .banner-2-respo {
+    text-align: start !important;
+  }
+  .banner-2-respo h3,
+  .banner-2-respo2 h3 {
+    font-size: 18px;
+  }
+
+  .banner-2-respo button,
+  .banner-2-respo2 button,
+  .banner-3 button {
+    font-size: 13px;
+    width: 109px;
+    height: 30px;
+  }
+  .banner-2-respo img {
+    width: 156px;
+  }
+
+  .banner-2-respo2 {
+    text-align: end !important;
+  }
+  .banner-2-respo2 img {
+    width: 74px;
+  }
+
+  .shawarmas img {
+    width: 50%;
+  }
+
+  .banner-3 > .row {
+    padding: 40px 0px;
+  }
+  .banner-3 h1 {
+    font-size: 25px;
+  }
+  .banner-3 p {
+    font-size: 10px;
+  }
+
+  .banner-btn {
+    justify-content: start !important;
+  }
+
+  .footer-link a {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .logo-footer img {
+    width: 30%;
+  }
+
+  .logo-footer span {
+    font-size: 18px;
+  }
+
+
+}
